@@ -18,9 +18,6 @@ Implemente o algoritmo de Dijkstra para encontrar o caminho mais rápido entre d
 considerando que você pode trocar de meio de transporte a qualquer momento em qualquer local.
 """
 
-def dijkstra_problema3(rede, origem, destino):
-    # Implemente o algoritmo de Dijkstra aqui
-    pass
 
 
 class TestProblema3(unittest.TestCase):

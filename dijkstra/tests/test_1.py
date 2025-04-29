@@ -33,9 +33,6 @@ A função deve retornar um dicionário onde as chaves são os nós de destino e
 são tuplas contendo (distância, caminho), onde caminho é uma lista de nós do percurso.
 """
 
-def dijkstra_problema1(grafo, origem):
-    # Implemente o algoritmo de Dijkstra aqui
-    pass
 
 
 class TestProblema1(unittest.TestCase):

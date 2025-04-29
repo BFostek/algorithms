@@ -16,9 +16,7 @@ Implemente o algoritmo de Dijkstra para encontrar o caminho mais rápido entre d
 considerando um horário de partida específico e que o tempo gasto influencia no tráfego das próximas estradas.
 """
 
-def dijkstra_problema4(rede, origem, destino, hora_partida):
-    # Implemente o algoritmo de Dijkstra aqui
-    pass
+
 
 
 class TestProblema4(unittest.TestCase):

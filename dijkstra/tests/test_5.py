@@ -18,9 +18,7 @@ Implemente o algoritmo de Dijkstra modificado para encontrar o caminho mais ráp
 considerando o dia de partida e as restrições de conexão.
 """
 
-def dijkstra_problema5(rede, origem, destino, dia_partida, hora_partida):
-    # Implemente o algoritmo de Dijkstra aqui
-    pass
+
 
 
 class TestProblema5(unittest.TestCase):

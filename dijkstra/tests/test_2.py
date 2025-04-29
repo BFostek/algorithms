@@ -17,9 +17,6 @@ Você pode se mover apenas nas quatro direções cardeais (norte, sul, leste, oe
 A função deve retornar o custo mínimo para ir da origem ao destino, e o caminho percorrido.
 """
 
-def dijkstra_problema2(grade, origem, destino):
-    # Implemente o algoritmo de Dijkstra aqui
-    pass
 
 
 class TestProblema2(unittest.TestCase):

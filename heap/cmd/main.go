@@ -54,5 +54,9 @@ func (arr *IntArrayHeap) Push(item int) {
 }
 
 func IntHeap(arr []int) IntArrayHeap {
-	return IntArrayHeap{arr}
+	myHeap := IntArrayHeap{}
+	for item := range arr {
+		codes.Heappush(&myHeap,item)
+	}
+	return myHeap
 }

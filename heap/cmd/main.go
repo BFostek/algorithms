@@ -6,7 +6,8 @@ import (
 )
 
 func main() {
-	arr := IntHeap([]int{})
+  initialArr := []int{12,312,3,5,345,345,12,3,6,85,46,456,1,23,5,234,7,8}
+	arr := IntHeap(initialArr)
 	codes.Heappush(&arr, 9)
 	codes.Heappush(&arr, 8)
 	codes.Heappush(&arr, 7)
@@ -18,6 +19,7 @@ func main() {
 	for {
 		value, err := codes.Heappop(&arr)
 		if err != nil {
+      fmt.Println(err)
 			break
 		}
 		println(value)
@@ -56,7 +58,7 @@ func (arr *IntArrayHeap) Push(item int) {
 func IntHeap(arr []int) IntArrayHeap {
 	myHeap := IntArrayHeap{}
 	for item := range arr {
-		codes.Heappush(&myHeap,item)
+		codes.Heappush(&myHeap, arr[item])
 	}
 	return myHeap
 }
